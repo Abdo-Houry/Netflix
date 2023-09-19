@@ -1,0 +1,29 @@
+.posts-row{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.posts-row::-webkit-scrollbar{
+    display: none;
+}
+.post-imge{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+.title-row{
+    color: #fff;
+    margin-left: 20px;
+}
+.post-imge:hover{
+    transform: scale(1.08);
+}
+.post-imge-large{
+    max-height: 250px;
+}
+.post-imge-large:hover{
+    transform: scale(1.09);
+}
